@@ -1,0 +1,58 @@
+{
+  "author": "BPower0036",
+  "homepage_url": "https://github.com/BPower0036/uExtra/",
+  "name": "uExtra",
+  "description": "A mix of some handy addons",
+  "version": "0.0.1",
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": {
+      "128": "img/icon.png"
+    },
+    "default_title": "uExtra"
+  },
+  "options_ui": {
+    "open_in_tab": true,
+    "browser_style": false,
+    "page": "options.html"
+  },
+  "permissions": [
+    "storage",
+    "history",
+    "tabs",
+    "menus"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@uExtra",
+      "strict_min_version": "90.0",
+      "update_url": "https://raw.githubusercontent.com/BPower0036/uExtra/main/update.json"
+    }
+  },
+  "commands": {
+    "duplicate-tab": {
+      "suggested_key": {
+        "default": "Shift+Alt+D"
+      },
+      "description": "Duplicate the current tab"
+    },
+    "no-history": {
+      "suggested_key": {
+        "default": "Shift+Alt+Delete"
+      },
+      "description": "Stop recording history (enable)"
+    },
+    "history": {
+      "suggested_key": {
+        "default": "Alt+Delete"
+      },
+      "description": "Stop recording history (disable)"
+    }
+  },
+  "icons": {
+    "128": "img/icon.png"
+  },
+  "manifest_version": 2
+}
