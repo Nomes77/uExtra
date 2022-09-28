@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "uExtra",
+        "description": ""
+    },
+    "extShortDesc": {
+        "message": "A mix of some handy addons",
+        "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
+    },
+    "toggleDuplicateTab": {
+        "message": "Duplicate the current tab",
+        "description": "shortcut"
+    },
+    "toggleNoHistory": {
+        "message": "Stop recording history (enable)",
+        "description": "shortcut"
+    },
+    "toggleHistory": {
+        "message": "Stop recording history (disable)",
+        "description": "shortcut"
+    }
+}

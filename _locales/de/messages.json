@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "uExtra",
+        "description": ""
+    },
+    "extShortDesc": {
+        "message": "Eine Mischung aus einigen praktischen Addons",
+        "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
+    },
+    "toggleDuplicateTab": {
+        "message": "Duplizier die aktuelle Registerkarte",
+        "description": "shortcut"
+    },
+    "toggleNoHistory": {
+        "message": "Halt die Aufzeichnung der Geschichte (Aktivier)",
+        "description": "shortcut"
+    },
+    "toggleHistory": {
+        "message": "Halt die Aufzeichnung der Geschichte (Deaktivier)",
+        "description": "shortcut"
+    }
+}

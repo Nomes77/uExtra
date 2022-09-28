@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "uExtra",
+        "description": ""
+    },
+    "extShortDesc": {
+        "message": "Een lijst met enkele handige addons",
+        "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
+    },
+    "toggleDuplicateTab": {
+        "message": "Dupliceer het huidige tabblad",
+        "description": "shortcut"
+    },
+    "toggleNoHistory": {
+        "message": "Stop het opnemen van geschiedenis (aan)",
+        "description": "shortcut"
+    },
+    "toggleHistory": {
+        "message": "Stop het opnemen van geschiedenis (uit)",
+        "description": "shortcut"
+    }
+}
