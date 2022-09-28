@@ -2,8 +2,9 @@
   "author": "BPower0036",
   "homepage_url": "https://github.com/BPower0036/uExtra/",
   "name": "uExtra",
-  "description": "A mix of some handy addons",
-  "version": "0.0.1",
+  "default_locale": "en",
+  "description": "__MSG_extShortDesc__",
+  "version": "0.0.2",
   "background": {
     "page": "background.html"
   },
@@ -36,19 +37,19 @@
       "suggested_key": {
         "default": "Shift+Alt+D"
       },
-      "description": "Duplicate the current tab"
+      "description": "__MSG_toggleDuplicateTab__"
     },
     "no-history": {
       "suggested_key": {
         "default": "Shift+Alt+Delete"
       },
-      "description": "Stop recording history (enable)"
+      "description": "__MSG_toggleNoHistory__"
     },
     "history": {
       "suggested_key": {
         "default": "Alt+Delete"
       },
-      "description": "Stop recording history (disable)"
+      "description": "__MSG_toggleHistory__"
     }
   },
   "icons": {
