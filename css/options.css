@@ -86,29 +86,29 @@ table > tbody td.value:nth-of-type(2):not(:hover, :active, :focus-within) #domai
 
 
 .container {
-  display: flex;
-  width: 50%;
+    display: flex;
+    width: 50%;
 }
 #keywords {
-  width: 85%;
+    width: 85%;
 }
 #content {
-  max-height: 0;
-  overflow: hidden;
-  background-color: #FFFFCC;
-  width: 25%;
-  transform: translateX(25%);
+    max-height: 0;
+    overflow: hidden;
+    background-color: #FFFFCC;
+    width: 25%;
+    transform: translateX(25%);
 }
 #content > #list > .li-button {
-  display: flex;
+    display: flex;
 }
 .del-button {
-  cursor: pointer;
-  color: red;
-  height: 100%;
-  position: fixed;
-  transform: translateX(3725%);
+    cursor: pointer;
+    color: red;
+    height: 100%;
+    position: absolute;
+    margin: -20px;
 }
 .del-button:hover {
-  background-color: #bcbbbb;
+    background-color: #bcbbbb;
 }
