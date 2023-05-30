@@ -3,9 +3,9 @@
     "@uExtra": {
       "updates": [
         {
-          "version": "0.0.2",
+          "version": "0.0.3",
           "browser_specific_settings": { "gecko": { "strict_min_version": "90.0" } },
-          "update_link": "https://github.com/BPower0036/uExtra/releases/download/0.0.2/uExtra-0.0.2-fx.xpi"
+          "update_link": "https://github.com/BPower0036/uExtra/releases/download/0.0.2/uExtra-0.0.3-fx.xpi"
         }
       ]
     }
