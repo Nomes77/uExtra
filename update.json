@@ -3,9 +3,9 @@
     "@uExtra": {
       "updates": [
         {
-          "version": "0.0.4",
-          "browser_specific_settings": { "gecko": { "strict_min_version": "90.0" } },
-          "update_link": "https://github.com/Nomes77/uExtra/releases/download/0.0.4/uExtra-0.0.4-fx.xpi"
+          "version": "0.0.5",
+          "browser_specific_settings": { "gecko": { "strict_min_version": "91.0" } },
+          "update_link": "https://github.com/Nomes77/uExtra/releases/download/0.0.5/uExtra-0.0.5-fx.xpi"
         }
       ]
     }
