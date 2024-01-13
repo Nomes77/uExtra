@@ -1,10 +1,10 @@
-const default_options = {
+const duplicate_options = {
   background: false,
 };
 
 browser.commands.onCommand.addListener(async command => {
   if (command == "duplicate-tab") {
-    const options = await browser.storage.sync.get(default_options);
+    const options = await browser.storage.sync.get(duplicate_options);
     const tabs = await browser.tabs.query({
       currentWindow: true,
       highlighted: true,
@@ -61,7 +61,7 @@ browser.commands.onCommand.addListener(async command => {
       await browser.tabs.update(tabToActivate.id, { highlighted: true });
     }
   } else if (command == "duplicate-to-new-window") {
-    const options = await browser.storage.sync.get(default_options);
+    const options = await browser.storage.sync.get(duplicate_options);
     const currentWindow = await browser.windows.getCurrent();
     const tabs = await browser.tabs.query({
       currentWindow: true,
@@ -115,7 +115,7 @@ browser.commands.onCommand.addListener(async command => {
       await browser.tabs.update(tabToActivate.id, { highlighted: true });
     }
   } else if (command == "pop-out-to-new-incognito-window") {
-    const options = await browser.storage.sync.get(default_options);
+    const options = await browser.storage.sync.get(duplicate_options);
     const currentWindow = await browser.windows.getCurrent();
     const tabs = await browser.tabs.query({
       currentWindow: true,
