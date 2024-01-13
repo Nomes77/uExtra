@@ -82,10 +82,19 @@
     <p></p>
   </div>
   <div id="options">
-    <h3><a  target="_blank" href='https://github.com/stefansundin/duplicate-tab/'>Duplicate Tab Shortcut</a></h3>
-    <span>To configure the shortcut, click 'Manage Extension Shortcuts' in the addon manager.</span><br>
-    <span>The default shortcut is 'Shift+Alt+D'.</span><br>
+    <h3><a target="_blank" href='https://github.com/stefansundin/duplicate-tab/'>Duplicate Tab Shortcut</a></h3>
+    <span>To configure the shortcut, click <strong>Manage Extension Shortcuts</strong>strong> in the addon manager.</span><br>
+    <span>Duplicate tab shortcut: <span id="duplicate-tab-shortcut">error</span>.</span><br>
+    <span>Duplicate to a new window shortcut: <span id="duplicate-to-new-window-shortcut">error</span>.</span><br>
+    <hr>
+    <span>Pop tab out to a new private window shortcut: <span id="pop-out-to-new-incognito-window-shortcut">error</span>.</span><br>
+    <span id="allow-in-incognito-notice"><strong>You need to allow the addon to "Run in Private Windows" for this to work (in the Details section)!!</strong></span><br>
+    <span><strong>This does not preserve the tab history!</strong></span><br>
+    <span>If the window is already private then it creates a normal window.</span><br>
+    <hr>
+    <span><label><input type="checkbox" id="background"> Open new tabs in the background</label></span><br>
+    <span>Tip: You can perform the actions with multiple tabs highlighted.</span><br>
   </div>
-
+  <script src="js/duplicate_options.js"></script>
 </body>
 </html>

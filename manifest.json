@@ -2,7 +2,7 @@
   "name": "uExtra",
   "default_locale": "en",
   "description": "__MSG_extShortDesc__",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "background": {
     "page": "background.html"
   },
@@ -26,7 +26,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "@uExtra",
-      "strict_min_version": "90.0",
+      "strict_min_version": "91.0",
       "update_url": "https://raw.githubusercontent.com/Nomes77/uExtra/main/update.json"
     }
   },
@@ -36,6 +36,18 @@
         "default": "Shift+Alt+D"
       },
       "description": "__MSG_toggleDuplicateTab__"
+    },
+    "duplicate-to-new-window": {
+      "suggested_key": {
+        "default": "Shift+Alt+N"
+      },
+      "description": "__MSG_toggleDuplicateNewWindow__"
+    },
+    "pop-out-to-new-incognito-window": {
+      "suggested_key": {
+        "default": "Shift+Alt+P"
+      },
+      "description": "__MSG_togglePopoutNewIncognitoWindow__"
     },
     "no-history": {
       "suggested_key": {

@@ -11,6 +11,14 @@
         "message": "Dupliceer het huidige tabblad",
         "description": "shortcut"
     },
+    "toggleDuplicateNewWindow": {
+        "message": "Dupliceer naar een nieuw venster",
+        "description": "shortcut"
+    },
+    "togglePopoutNewIncognitoWindow": {
+        "message": "Tabblad verplaatsen naar een nieuw incognitovenster (tabbladgeschiedenis wordt niet bewaard!)",
+        "description": "shortcut"
+    },
     "toggleNoHistory": {
         "message": "Stop het opnemen van geschiedenis (aan)",
         "description": "shortcut"
