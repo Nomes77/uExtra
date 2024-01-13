@@ -8,7 +8,15 @@
         "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
     },
     "toggleDuplicateTab": {
-        "message": "Duplizier die aktuelle Registerkarte",
+        "message": "Duplizier die aktuelle Tab",
+        "description": "shortcut"
+    },
+    "toggleDuplicateNewWindow": {
+        "message": "Duplizier in ein neues Fenster",
+        "description": "shortcut"
+    },
+    "togglePopoutNewIncognitoWindow": {
+        "message": "Tabs in einem neuen Inkognito-Fenster öffnen (der Tab-Verlauf bleibt nicht erhalten!)",
         "description": "shortcut"
     },
     "toggleNoHistory": {
