@@ -11,6 +11,14 @@
         "message": "Duplicate the current tab",
         "description": "shortcut"
     },
+    "toggleDuplicateNewWindow": {
+        "message": "Duplicate to a new window",
+        "description": "shortcut"
+    },
+    "togglePopoutNewIncognitoWindow": {
+        "message": "Pop tab out to a new incognito window (does not preserve tab history!)",
+        "description": "shortcut"
+    },
     "toggleNoHistory": {
         "message": "Stop recording history (enable)",
         "description": "shortcut"
